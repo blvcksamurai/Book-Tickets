@@ -230,7 +230,7 @@ class ProfileScreen extends StatelessWidget {
                       isColor: false,
                     ),
                     AppColumnLayout(
-                      firstText: "Airline CO",
+                      firstText: "CodeInn Air",
                       secondText: "Recieved from",
                       alignment: CrossAxisAlignment.end,
                       isColor: false,
