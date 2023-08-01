@@ -1,3 +1,3 @@
 # booktickets
 
-A ticket booking application developd with flutter.
+A ticket booking application developed with flutter.
