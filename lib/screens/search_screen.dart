@@ -169,10 +169,19 @@ class SearchScreen extends StatelessWidget {
                         ),
                         Gap(AppLayout.getHeight(15)),
                         RichText(
-                            text: const TextSpan(children: [
-                          TextSpan(text: '🚁', style: TextStyle(fontSize: 35)),
-                          TextSpan(text: '🗿', style: TextStyle(fontSize: 50)),
-                          TextSpan(text: '🌏', style: TextStyle(fontSize: 35)),
+                            text: TextSpan(children: [
+                          TextSpan(
+                              text: '🚁',
+                              style:
+                                  TextStyle(fontSize: AppLayout.getHeight(25))),
+                          TextSpan(
+                              text: '🗿',
+                              style:
+                                  TextStyle(fontSize: AppLayout.getHeight(40))),
+                          TextSpan(
+                              text: '🌏',
+                              style:
+                                  TextStyle(fontSize: AppLayout.getHeight(25))),
                         ]))
                       ],
                     ),
